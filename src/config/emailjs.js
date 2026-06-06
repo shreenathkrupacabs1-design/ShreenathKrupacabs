@@ -17,7 +17,7 @@ export const EMAILJS_CONFIG = {
   TEMPLATE_CALLBACK: 'template_ay0t9a4',
   TEMPLATE_CONTACT: 'template_ay0t9a4',
   PUBLIC_KEY: 'gtZArW0gBnv3YeA8G',
-  RECIPIENT_EMAIL: 'shreenathkrupacabs1@gmail.com'
+  RECIPIENT_EMAIL: 'shreenathkrupacabs@gmail.com'
 }
 
 // ========== EMAIL TEMPLATE SUGGESTIONS ==========

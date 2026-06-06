@@ -1,28 +1,29 @@
 import React from 'react'
 
 function Fleet() {
+  const base = import.meta.env.BASE_URL || '/'
   const cars = [    {
       name: 'Swift Dzire',
       type: 'Sedan - 4 Seater',
-      image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/130591/dzire-exterior-right-front-three-quarter-64.jpeg?isig=0&q=80',
+      image: `${base}images.png`,
       price: '₹11/km',
       description: 'AC, Comfortable, Best for 2-4 passengers. Ideal for city and short outstation trips.'
     },    {
       name: 'Toyota Etios',
       type: 'Sedan - 4 Seater',
-      image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/48aborr/toyota-etios-right-front-three-quarter1.jpeg?isig=0&q=80',
+      image: `${base}images1.jpeg`,
       price: '₹12/km',
       description: 'Spacious sedan with ample boot space. Perfect for airport transfers and outstation travel.'
     },    {
       name: 'Maruti Ertiga',
       type: 'SUV - 6 Seater',
-      image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/115777/ertiga-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
+      image: `${base}images2.jpeg`,
       price: '₹14/km',
       description: 'Comfortable SUV for family trips. 6+1 seating with AC and music system.'
     },{
       name: 'Toyota Innova',
       type: 'SUV - 7 Seater',
-      image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/139139/innova-hycross-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80',
+      image: `${base}images4.jpeg`,
       price: '₹16/km',
       description: 'Premium SUV with 7 seater capacity. Best for long distance and family outings.'
     },{
@@ -34,7 +35,7 @@ function Fleet() {
     },    {
       name: 'Tempo Traveller',
       type: '12-17 Seater',
-      image: 'https://imgd.aeplcdn.com/664x374/n/cw/ec/45105/force-tempo-traveller-right-front-three-quarter1.jpeg?isig=0&q=80',
+      image: `${base}images3.jpeg`,
       price: '₹22/km',
       description: 'Perfect for group tours, pilgrimages, and corporate team outings. Push-back seats with AC.'
     }

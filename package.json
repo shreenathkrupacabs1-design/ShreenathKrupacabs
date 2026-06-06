@@ -1,10 +1,13 @@
 {
+  "homepage": "https://shreenathkrupacabs1-design.github.io/ShreenathKrupacabs",
   "name": "shreenath-krupa-cabs",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeplou":"npm run build",
+    "deploy":"gh--pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
